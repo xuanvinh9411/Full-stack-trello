@@ -5,11 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "pro": "vite",
     "build": "vite build --base./",
     "lint": "eslint  src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.0",
     "eslint-plugin-react": "^7.37.5",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"

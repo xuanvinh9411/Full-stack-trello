@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import Button from '@mui/material/Button'
 import './App.css'
 
 function App() {
@@ -22,9 +23,12 @@ function App() {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          Edit <code>src/App.jsx</code> and save to test HMRf
         </p>
       </div>
+      <Button variant="text">Text</Button>
+      <Button variant="contained">Contained</Button>
+      <Button variant="outlined">Outlined</Button>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
