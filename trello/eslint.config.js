@@ -1,9 +1,9 @@
 // Updated by trungquandev.com's author on May 13 2023
 // Converted to Flat Config format for ESLint 9.0+
-import js from '@eslint/js'
-import react from 'eslint-plugin-react'
-import reactHooks from 'eslint-plugin-react-hooks'
-import reactRefresh from 'eslint-plugin-react-refresh'
+import js from '@eslint/js';
+import react from 'eslint-plugin-react';
+import reactHooks from 'eslint-plugin-react-hooks';
+import reactRefresh from 'eslint-plugin-react-refresh';
 
 export default [
   // Base recommended config
@@ -29,23 +29,23 @@ export default [
         global: 'readonly',
         module: 'readonly',
         require: 'readonly',
-        exports: 'readonly'
+        exports: 'readonly',
       },
       parserOptions: {
         ecmaFeatures: {
-          jsx: true
-        }
-      }
+          jsx: true,
+        },
+      },
     },
     plugins: {
       react,
       'react-hooks': reactHooks,
-      'react-refresh': reactRefresh
+      'react-refresh': reactRefresh,
     },
     settings: {
       react: {
-        version: '18.2'
-      }
+        version: '18.2',
+      },
     },
     rules: {
       // React recommended rules
@@ -76,9 +76,9 @@ export default [
       'linebreak-style': 0,
       'no-unexpected-multiline': 'warn',
       'keyword-spacing': 1,
-      'comma-dangle': 1,
+      'comma-dangle': 0,
       'comma-spacing': 1,
-      'arrow-spacing': 1
-    }
-  }
-]
+      'arrow-spacing': 1,
+    },
+  },
+];
